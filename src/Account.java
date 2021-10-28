@@ -29,8 +29,8 @@ public class Account {
 		this.balance = balance;
 	}
 
-	public String getaccountOwner() {
-		return getAccountOwner();
+	public String getAccountOwner() {
+		return accountOwner;
 	}
 
 	public void setAccountOwner(String value) {
@@ -67,8 +67,6 @@ public class Account {
 		balance = balance - amount;
 	}
 
-	public String getAccountOwner() {
-		return accountOwner;
-	}
+	
 
 }
